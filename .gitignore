@@ -1,0 +1,6 @@
+build
+UNKNOWN.egg-info
+dist
+.ropeproject
+*.swp
+
