@@ -3,7 +3,7 @@
 
 import hs_fisheye
 import cv2
-img = cv2.imread("/home/mythxcq/source_codes/hs_calib/Testaplication/4.jpg")
+img = cv2.imread("test_imgs/4.jpg")
 # cv2.imshow('img', img)
 # cv2.waitKey(0)
 undist_type = 1

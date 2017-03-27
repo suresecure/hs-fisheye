@@ -460,7 +460,7 @@ static PyObject *image_undistortion(PyObject *dummy, PyObject *args) {
   cv::Mat img;
   ArgInfo info("hello", true);
   pyopencv_to(arg1, img, info, true);
-  cv::add(img, cv::Scalar(100), img);
+  //cv::add(img, cv::Scalar(100), img);
 
   uchar* p;
   int x = 0, y = 0, w = 0, h = 0;
